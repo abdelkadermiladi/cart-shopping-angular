@@ -3,6 +3,8 @@
 <div class="cart-item" *ngFor="let item of items">
   <span>{{ item.name }} </span>
   <span>{{ item.price | currency }}</span>
+  <!-- <button (click)="removeItem(item)">Delete from cart</button> -->
+  
 </div>
 
 
@@ -11,6 +13,7 @@
 
     <span><b>Total to pay</b></span>
     <span><b>{{ totalAmount | currency }}</b></span>
+    
 
 </div>
 <br>

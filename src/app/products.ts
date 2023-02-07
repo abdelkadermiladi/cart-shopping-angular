@@ -27,6 +27,20 @@ export const products = [
     price: 299,
     description: '',
     imageUrl: 'assets/images/phone-standard.jpg'
+  },
+  {
+    id: 4,
+    name: 'IPhone',
+    price: 999,
+    description: '',
+    imageUrl: 'assets/images/iphone.jpg'
+  },
+  {
+    id: 5,
+    name: 'Old Phone',
+    price: 599,
+    description: 'A resistant phone with a great battery',
+    imageUrl: 'assets/images/old-phone.jpg'
   }
 ];
 

@@ -45,5 +45,10 @@ export class CartComponent {
     this.checkoutForm.reset();
   }
 
+//  removeItem(item: Product) {
+//    this.cartService.removeFromCart(item);
+//}
+
+
 }
 
